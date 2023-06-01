@@ -27,4 +27,4 @@ sudo chmod 755 /home/ubuntu/action/practice-0.0.1-SNAPSHOT.jar
 
 DEPLOY_JAR=$DEPLOY_PATH$JAR_NAME
 echo "> DEPLOY_JAR 배포"    >> /home/ubuntu/action/deploy.log
-sudo nohup java -jar /home/ubuntu/action/practice-0.0.1-SNAPSHOT.jar >> /home/ubuntu/action/deploy.log 2>/home/ubuntu/action/deploy_err.log &
+sudo nohup java -jar /home/ubuntu/action/practice-0.0.1-SNAPSHOT.jar
